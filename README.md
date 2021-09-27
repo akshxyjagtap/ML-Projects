@@ -1,5 +1,4 @@
-**NETFLIX MOVIES AND TV SHOWS EDA
-EDA on NETFLIX MOVIES AND TV SHOWS**
+***NETFLIX MOVIES AND TV SHOWS EDA
 
 Netflix, Inc. is an American over-the-top media service and original programming production company. It offers subscription- ased video on demand from a library of films and television series, 40% of which is Netflix original programming produced in-house.
 
