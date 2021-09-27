@@ -7,7 +7,7 @@
 
 
 
-ps. As github does not renders all visualisation and  dashboards kind view project and sometimes fails to load load kindlu open using external nb viewer [NB VIEWER][NB VIEWER]
+ps. As github does not renders all visualisation and  dashboards and sometimes fails to load kindly open using external nb viewer [NB VIEWER][NB VIEWER]
 
 
 
