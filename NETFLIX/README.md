@@ -12,4 +12,4 @@ ps. As github does not renders all visualisation and  dashboards and sometimes f
 
 
 
-[NB VIEWER]: https://nbviewer.jupyter.org/github/akshxyjagtap/Data-Science/blob/8966aa245e344f9f6cf3e5efd8a3668f81ad991f/NETFLIX/code/NETFLIX%20_EDA%20.ipynb "NB VIEWER"
+[NB VIEWER]: https://nbviewer.jupyter.org/github/akshxyjagtap/Data-Science/blob/4fe3f7cc250768c75999c1158882cf8a9565749a/NETFLIX/code/NETFLIX%20_EDA%201.ipynb"NB VIEWER"
