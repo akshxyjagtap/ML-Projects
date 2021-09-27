@@ -10,7 +10,6 @@
 ps. As github does not renders all visualisation and  dashboards kind view project and sometimes fails to load load kindlu open using external nb viewer [NB VIEWER][NB VIEWER]
 
 
-- link - https://nbviewer.jupyter.org/github/akshxyjagtap/Data-Science/blob/8966aa245e344f9f6cf3e5efd8a3668f81ad991f/NETFLIX/code/NETFLIX%20_EDA%20.ipynb 
 
 
 [NB VIEWER]: https://nbviewer.jupyter.org/github/akshxyjagtap/Data-Science/blob/8966aa245e344f9f6cf3e5efd8a3668f81ad991f/NETFLIX/code/NETFLIX%20_EDA%20.ipynb "NB VIEWER"
