@@ -4,8 +4,6 @@ Netflix, Inc. is an American over-the-top media service and original programming
 
 EDA done using python, numpy, pandas, matplotlib, seaborn and plotly.
 
-My linkedIn - www.linkedin.com/in/akshay-jagtap-b43b64162 .
-
 Dataset - netflix_titles from kaggle https://www.kaggle.com/shivamb/netflix-shows .
 
 Reference - I have refered to the official documentations of libraries that I have used.
