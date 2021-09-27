@@ -13,4 +13,4 @@ ps. As github does not renders all visualisation and  dashboards kind view proje
 - link - https://nbviewer.jupyter.org/github/akshxyjagtap/Data-Science/blob/8b7309b0c02df87d9e0ca3bf2e93b7265582bb86/NETFLIX%20_EDA%20.ipynb
 
 
-[NB VIEWER]: https://nbviewer.jupyter.org/github/akshxyjagtap/Data-Science/blob/8b7309b0c02df87d9e0ca3bf2e93b7265582bb86/NETFLIX%20_EDA%20.ipynb "NB VIEWER"
+[NB VIEWER]: https://nbviewer.jupyter.org/github/akshxyjagtap/Data-Science/blob/8966aa245e344f9f6cf3e5efd8a3668f81ad991f/NETFLIX/code/NETFLIX%20_EDA%20.ipynb "NB VIEWER"
