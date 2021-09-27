@@ -8,7 +8,7 @@
 
 
 ps. As github does not renders all visualisation and  dashboards and sometimes fails to load code so
-kindly open project from this link -  [ONLINE NB VIEWER](https://nbviewer.jupyter.org/github/akshxyjagtap/Data-Science/blob/c62941d6358a86e793318f3524e5d72038d618f7/NETFLIX/code/NETFLIX%20_EDA%20.ipynb) it will take a min or two.
+kindly open project from this link -  [ONLINE NB VIEWER](http://nbviewer.ipython.org/github/akshxyjagtap/Data-Science/blob/85f26f2b65c7d12061aa99ef4925b9c844dbaed5/NETFLIX/code/NETFLIX%20_EDA.ipynb) it will take a min or two.
 
 
 
