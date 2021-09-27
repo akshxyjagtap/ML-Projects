@@ -13,4 +13,4 @@
 
 
 [NETFLIX]: https://github.com/akshxyjagtap/Data-Science/tree/main/NETFLIX "NETFLIX"
-[Linked_in]:  www.linkedin.com/in/akshay-jagtap-b43b64162 "My_Linked_in"
+[My_Linked_in]:  www.linkedin.com/in/akshay-jagtap-b43b64162 "My_Linked_in"
