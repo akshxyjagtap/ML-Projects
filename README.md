@@ -2,11 +2,11 @@
 
 Netflix, Inc. is an American over-the-top media service and original programming production company. It offers subscription- ased video on demand from a library of films and television series, 40% of which is Netflix original programming produced in-house.
 
-Dataset - netflix_titles from kaggle https://www.kaggle.com/shivamb/netflix-shows .
-
-EDA using python, numpy, pandas, matplotlib, seaborn and plotly
+EDA done using python, numpy, pandas, matplotlib, seaborn and plotly.
 
 My linkedIn - www.linkedin.com/in/akshay-jagtap-b43b64162 .
+
+Dataset - netflix_titles from kaggle https://www.kaggle.com/shivamb/netflix-shows .
 
 Reference - I have refered to the official documentations of libraries that I have used.
 
