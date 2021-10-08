@@ -9,7 +9,7 @@
 
 
 
-- Linked_In:  www.linkedin.com/in/akshay-jagtap-b43b64162
+- Linked_In:  https://www.linkedin.com/in/akshayjagtxp/
 
 
 [NETFLIX]: https://github.com/akshxyjagtap/Data-Science/tree/main/NETFLIX "NETFLIX"
