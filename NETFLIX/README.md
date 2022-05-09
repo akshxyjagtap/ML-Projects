@@ -4,6 +4,7 @@
 - EDA done using python, numpy, pandas, matplotlib, seaborn and plotly.
 - You will find many usefull visualisations and interactive dashboards in the project.
 - Dataset - [netflix_titles from kaggle]( https://www.kaggle.com/shivamb/netflix-shows) .
+- Kaggle Link to this project [LINK](https://www.kaggle.com/akshxy/netflix-exploratory-data-analysis) . 
 
 
 
