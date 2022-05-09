@@ -10,7 +10,7 @@
 
 
 
-- Linked_In:  https://www.linkedin.com/in/akshayjagtxp/
+- - :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-Akshay-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/akshayjagtxp/) [![gmail baddge]( https://img.shields.io/badge/Mail-Akshay-red)](mailto:jagtapakshay90@gmail.com)
 
 
 [NETFLIX]: https://github.com/akshxyjagtap/Data-Science/tree/main/NETFLIX "NETFLIX"
