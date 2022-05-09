@@ -15,4 +15,4 @@
 
 [NETFLIX]: https://github.com/akshxyjagtap/Data-Science/tree/main/NETFLIX "NETFLIX"
 [My_Linked_in]:  www.linkedin.com/in/akshay-jagtap-b43b64162 "My_Linked_in"
-[LICENSE PLATE DETECTION]: https://www.kaggle.com/code/sandynigs/vehicle-number-plate-detection-and-recognition/data "LICENSE PLATE DETECTION"
+[LICENSE PLATE DETECTION]:https://github.com/akshxyjagtap/Data-Science/tree/main/License%20Plate%20Detection "LICENSE PLATE DETECTION"
