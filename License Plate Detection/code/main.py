@@ -1,95 +1,71 @@
-import random
-import pytesseract
-import matplotlib.pyplot as plt
 import cv2
+import imutils
+import pytesseract
 import pandas as pd
-import glob
-from datetime import datetime
-import os
-
-import easyocr
-reader = easyocr.Reader(['en'])
-
-
-df = pd.read_csv("indian_license_plates.csv")
-df["image_name"] = df["image_name"] + ".jpeg"
-df.drop(["image_width", "image_height"], axis=1, inplace=True)
-
-
-WIDTH = 224
-HEIGHT = 224
-
-
 
 def detect(index):
+    pytesseract.pytesseract.tesseract_cmd = 'C:/Install/tesseract/tesseract.exe'
+    df = pd.read_csv("indian_license_plates.csv")
+    df["image_name"] = df["image_name"] + ".jpeg"
+    df.drop(["image_width", "image_height"], axis=1, inplace=True)
 
     image = cv2.imread("Indian Number Plates/" + df["image_name"].iloc[index])
-    # image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-    image = cv2.resize(image, dsize=(WIDTH, HEIGHT))
+    image = imutils.resize(image, width=300 )
+    # cv2.imshow("original image", image)
+    # cv2.imwrite('./' + "original image" + '.png', image)
+    cv2.waitKey(0)
 
-    tx = int(df["top_x"].iloc[index] * WIDTH)
-    ty = int(df["top_y"].iloc[index] * HEIGHT)
-    bx = int(df["bottom_x"].iloc[index] * WIDTH)
-    by = int(df["bottom_y"].iloc[index] * HEIGHT)
-    # print(tx, bx, ty, by)
-    # image = cv2.rectangle(image, (tx, ty), (bx, by), (0, 0, 255), 1)
-    # # plt.imshow(image)
-    # cropped_image = image[ty:by,tx:bx,]
-
-    # plt.imshow(cropped_image)
     gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     # cv2.imshow("greyed image", gray_image)
     # cv2.imwrite('./' + "greyed image" + '.png', gray_image)
-    # cv2.waitKey(0)
+    cv2.waitKey(0)
 
     gray_image = cv2.bilateralFilter(gray_image, 11, 17, 17)
     # cv2.imshow("smoothened image", gray_image)
     # cv2.imwrite('./' + "smoothened image" + '.png', gray_image)
-    # cv2.waitKey(0)
+    cv2.waitKey(0)
 
     edged = cv2.Canny(gray_image, 30, 200)
     # cv2.imshow("edged image", edged)
     # cv2.imwrite('./' + "edged" + '.png', edged)
-    # cv2.waitKey(0)
+    cv2.waitKey(0)
 
-    image_identified = cv2.rectangle(gray_image, (tx, ty), (bx, by), (0, 0, 255), 1)
-    print_image = cv2.rectangle(image, (tx, ty), (bx, by), (0, 0, 255), 1)
+    cnts, new = cv2.findContours(edged.copy(), cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
+    image1 = image.copy()
+    cv2.drawContours(image1, cnts, -1, (0, 255, 0), 3)
+    # cv2.imshow("contours", image1)
+    cv2.waitKey(0)
 
-    # for ui
-    cropped_image = image[ty:by,tx:bx,]
-    # for ocr
-    cropped_image_identifed = image_identified[ty:by, tx:bx,]
+    cnts = sorted(cnts, key=cv2.contourArea, reverse=True)[:30]
+    screenCnt = None
+    image2 = image.copy()
+    cv2.drawContours(image2, cnts, -1, (0, 255, 0), 3)
+    # cv2.imshow("Top 30 contours", image2)
+    cv2.waitKey(0)
 
-    #1
-    pytesseract.pytesseract.tesseract_cmd = 'C:/Install/tesseract/tesseract.exe'
-    predicted_result = pytesseract.image_to_string(cropped_image_identifed, lang='eng')
+    i = 7
+    for c in cnts:
+        perimeter = cv2.arcLength(c, True)
+        approx = cv2.approxPolyDP(c, 0.018 * perimeter, True)
+        if len(approx) == 4:
+            screenCnt = approx
+            x, y, w, h = cv2.boundingRect(c)
+            new_img = image[y:y + h, x:x + w]
+            cv2.imwrite('./' + str(i) + '.png', new_img)
+            i += 1
+            break
 
-    # 2
-    result = reader.readtext(cropped_image_identifed,detail=0)
-    print(result)
+    Cropped_loc = './7.png'
+    cv2.imshow("cropped", cv2.imread(Cropped_loc))
+    plate = pytesseract.image_to_string(Cropped_loc, lang='eng')
+    print("Number plate is:", plate)
 
-    with open("recognized.csv", mode='a') as file1:
-        now = datetime.now()
-        current_time = now.strftime("%H:%M:%S")
-        file1.write(" \n")
-        # final = str(current_time) + " , "+ str(result)
-        # final = pd.DataFrame( [[current_time, str(result)]], columns=['time', 'recognised_plate'])
-        final = pd.DataFrame([[current_time, str(result)]])
+    import easyocr
+    reader = easyocr.Reader(['en'])  # this needs to run only once to load the model into memory
+    plate = reader.readtext(Cropped_loc, detail=0)
+    print("Number plate is:", plate)
 
-        final.to_csv(file1, index= False)
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
 
-
-    plt.imshow(print_image)
-    title = "Identified Plate : " + " ".join(result)
-    plt.title(title)
-    plt.show()
-
-
-now = datetime.now()
-current_time = now.strftime("%H:%M:%S")
-
-# to generate samples
-for i in range(0,50):
-    detect(random.randint(0,210))
-
-
+detect(15)
