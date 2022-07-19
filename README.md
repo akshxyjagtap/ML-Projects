@@ -6,12 +6,10 @@
      - EDA on Netflix titles  done using python, numpy, pandas, matplotlib, seaborn and plotly.
   - [LICENSE PLATE DETECTION][LICENSE PLATE DETECTION] 
      - Identifying  and recogninzing the Vehical License Number Plates using cv2, easyocr, tesseract and other libraries.
+     
+<hr>
 
-
-
-
-- Linked_In:  https://www.linkedin.com/in/akshayjagtxp/
-
+- :mailbox:How to reach me: [![Linkedin Badge](https://img.shields.io/badge/-Akshay-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/akshayjagtxp/) [![gmail baddge]( https://img.shields.io/badge/Mail-Akshay-red)](mailto:jagtapakshay90@gmail.com)
 
 [NETFLIX]: https://github.com/akshxyjagtap/Data-Science/tree/main/NETFLIX "NETFLIX"
 [My_Linked_in]:  www.linkedin.com/in/akshay-jagtap-b43b64162 "My_Linked_in"
