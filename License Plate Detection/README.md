@@ -19,6 +19,13 @@ system should extract that number from the image. It should recognize the number
 - Pandas: Pandas is used to analyze data.
 
 - Easyocr: Easyocr is a Python package that allows computer vision developers to effortlessly perform
--                 
+              
 
 ![](https://github.com/akshxyjagtap/Data-Science/blob/main/License%20Plate%20Detection/images/final%20ppt_page-0007.jpg)
+![](https://github.com/akshxyjagtap/Data-Science/blob/main/License%20Plate%20Detection/images/final%20ppt_page-0008.jpg)
+![](https://github.com/akshxyjagtap/Data-Science/blob/main/License%20Plate%20Detection/images/final%20ppt_page-0009.jpg)
+![](https://github.com/akshxyjagtap/Data-Science/blob/main/License%20Plate%20Detection/images/final%20ppt_page-0010.jpg)
+![](https://github.com/akshxyjagtap/Data-Science/blob/main/License%20Plate%20Detection/images/final%20ppt_page-0011.jpg)
+![](https://github.com/akshxyjagtap/Data-Science/blob/main/License%20Plate%20Detection/images/final%20ppt_page-0012.jpg)
+![](https://github.com/akshxyjagtap/Data-Science/blob/main/License%20Plate%20Detection/images/final%20ppt_page-0013.jpg)
+
