@@ -1,5 +1,7 @@
 
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)### Introduction
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+
+### Introduction
 
 I considered the vehicle number plate as input image,
 system should extract that number from the image. It should recognize the number plates even in the low light or shadow like conditions.
