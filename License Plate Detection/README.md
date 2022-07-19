@@ -3,7 +3,7 @@
 I considered the vehicle number plate as input image,
 system should extract that number from the image. It should recognize the number plates even in the low light or shadow like conditions.
 
-###Libraries Used
+### Libraries Used
 
 - Pytesseract: Pytesseract is an optical character recognition (OCR) tool for python. That is, it will recognize and “read” the text embedded in images.
 
