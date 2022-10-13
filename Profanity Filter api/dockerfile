@@ -1,0 +1,20 @@
+FROM python:3.8-slim-buster
+
+
+WORKDIR /python-docker
+
+
+
+
+COPY requirements.txt requirements.txt
+
+RUN pip3 install -r requirements.txt
+RUN python -m spacy download en_core_web_sm-2.0.0 --direct
+RUN python -m spacy download en_core_web_lg-2.0.0 --direct
+RUN python -m spacy download en
+# RUN python -m spacy link en_core_web_lg en
+
+COPY . .
+
+CMD [ "python3", "./app.py", "--host=0.0.0.0"]
+ 
