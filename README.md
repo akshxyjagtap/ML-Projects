@@ -8,6 +8,8 @@
      - Identifying  and recogninzing the Vehical License Number Plates using cv2, easyocr, tesseract and other libraries.
   - [PROFANITY FILTER][PROFANITY FILTER] 
      - API THAT GETS A SENTENCE OR A COOMENT OF STRING AS INPUT AND POSTS IF THE SENTENCE IS PROFANE .PROFANITY FILTER BUILD ON EXISTING pypi PACKAGE AND ADDED HINDI WORDS TO DEETCT PROFANE WORDS IN HINDI LANGUAGE. 
+     - Api thats gets a comment of string as input and post the status of comment if it contains profane words or not.
+     build on existing pypi package and added hindi profanity words to detect in hindi.
 
      
 <hr>
