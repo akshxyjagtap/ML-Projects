@@ -18,4 +18,4 @@
 [My_Linked_in]:  www.linkedin.com/in/akshay-jagtap-b43b64162 "My_Linked_in"
 [LICENSE PLATE DETECTION]:https://github.com/akshxyjagtap/Data-Science/tree/main/License%20Plate%20Detection "LICENSE PLATE DETECTION"
 
-[PROFANITY FILTER]:LINK "PROFANITY FILTER"
+[PROFANITY FILTER]:https://github.com/akshxyjagtap/Data-Science/tree/main/Profanity%20Filter%20api "PROFANITY FILTER"
