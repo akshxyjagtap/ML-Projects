@@ -5,9 +5,9 @@
   - [NETFLIX][NETFLIX] 
      - EDA on Netflix titles  done using python, numpy, pandas, matplotlib, seaborn and plotly.
   - [LICENSE PLATE DETECTION][LICENSE PLATE DETECTION] 
-     - Identifying  and recogninzing the Vehical License Number Plates using cv2, easyocr, tesseract and other libraries.
+     - Identifying  and recogninzing the Vehical 🚗 License Number Plates using cv2, easyocr, tesseract and other libraries.
   - [Hands Detection][Hands Detection]
-    - detection of hands ✋ using mediapipe and cv2 .
+    - Detection of hands ✋ using mediapipe and cv2 .
   - [PROFANITY FILTER][PROFANITY FILTER] 
      - Api thats gets a comment of string as input and post the status of comment if it contains profane words or not.
      build on existing pypi package and added hindi profanity words to detect in hindi.
