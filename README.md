@@ -6,7 +6,7 @@
      - EDA on Netflix titles  done using python, numpy, pandas, matplotlib, seaborn and plotly.
   - [LICENSE PLATE DETECTION][LICENSE PLATE DETECTION] 
      - Identifying  and recogninzing the Vehical 🚗 License Number Plates using cv2, easyocr, tesseract and other libraries.
-  - [Hands Detection][Hands Detection]
+  - [Hands detection][Hands detection]
     - Detection of hands ✋ using mediapipe and cv2 .
   - [PROFANITY FILTER][PROFANITY FILTER] 
      - Api thats gets a comment of string as input and post the status of comment if it contains profane words or not.
@@ -25,4 +25,4 @@
 
 [PROFANITY FILTER]:https://github.com/akshxyjagtap/Data-Science/tree/main/Profanity%20Filter%20api "PROFANITY FILTER"
 
-[Hands Detection]:https://github.com/akshxyjagtap/Data-Science/tree/main/Hand%20Tracking"Hands Detection"
+[Hands detection]:https://github.com/akshxyjagtap/Data-Science/tree/main/Hand%20Tracking"Hands detection"
