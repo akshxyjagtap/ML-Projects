@@ -20,4 +20,4 @@
 [My_Linked_in]:  www.linkedin.com/in/akshay-jagtap-b43b64162 "My_Linked_in"
 [LICENSE PLATE DETECTION]:https://github.com/akshxyjagtap/Data-Science/tree/main/License%20Plate%20Detection "LICENSE PLATE DETECTION"
 [PROFANITY FILTER]:https://github.com/akshxyjagtap/Data-Science/tree/main/Profanity%20Filter%20api "PROFANITY FILTER"
-[Hands detection]:https://github.com/akshxyjagtap/Data-Science/tree/main/Hand%20Tracking"Hands detection"
+[Hands detection]:https://github.com/akshxyjagtap/Data-Science/tree/main/Hand%20Tracking "Hands detection"
