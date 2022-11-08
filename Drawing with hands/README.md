@@ -9,5 +9,5 @@ the fingertips and draw using its cooridinates.
 
 - Mediapipe : in this program i used media pipe for getting coordinates of fingertip.
 
-
+https://youtu.be/_Q0SdPmeH-c
               

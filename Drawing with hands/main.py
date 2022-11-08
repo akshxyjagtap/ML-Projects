@@ -50,7 +50,7 @@ with handsModule.Hands(static_image_mode=False, min_detection_confidence=0.7, mi
                 if pts[i - 1] is None or pts[i] is None:
                         continue
                
-                cv2.line(frame, pts[i - 1], pts[i], (255, 255, 0), thickness=4)
+                cv2.line(frame, pts[i - 1], pts[i], (255, 233, 0), thickness=4)
 
 
 
