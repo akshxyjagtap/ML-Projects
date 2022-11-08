@@ -1,5 +1,7 @@
 ##### I Am AKSHAY JAGTAP Currently Studying B.Tech Artificial Intelligence And Data Science (3rd Year) From  Dr. D. Y. Patil Institute Of Technology, Pimpri, Pune. I Am Studying Machine Learning And Data Science In Depth. I Plan To Master It !
 
+<hr>
+
 - #####  MY PROJECTS:
 
   - [NETFLIX][NETFLIX] 
