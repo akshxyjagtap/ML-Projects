@@ -4,7 +4,7 @@
 
 - #####  MY PROJECTS:
 
-   - [DIGIT RECOGNITION][DIGIT RECOGNITION] 
+  - [DIGIT RECOGNITION][DIGIT RECOGNITION] 
      - Digit Recognition🔢  using cnn on MNIST dataset .
   - [NETFLIX][NETFLIX] 
      - EDA on Netflix 📺 titles  done using python, numpy, pandas, matplotlib, seaborn and plotly.
@@ -30,4 +30,4 @@
 [Hands detection]:https://github.com/akshxyjagtap/Data-Science/tree/main/Hand%20Tracking "Hands detection"
 [Drawing with fingertip]:https://github.com/akshxyjagtap/Data-Science/tree/main/Drawing%20with%20hands   "Drawing with fingertip"
 
-[DIGIT]:https://github.com/akshxyjagtap/Data-Science/tree/main/DigitRecognition "DIGIT RECOGNITION"
+[DIGIT RECOGNITION]:https://github.com/akshxyjagtap/Data-Science/tree/main/DigitRecognition "DIGIT RECOGNITION"
