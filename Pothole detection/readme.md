@@ -14,12 +14,10 @@ The pothole detection system is designed to:
 
 ## Requirements
 
-The system requires the following libraries and components:
-
-- OpenCV (`cv2`)
+- Python
+- OpenCV (cv2)
 - Geocoder
-- Operating System (OS) module
-- DateTime module
+- Ensure the necessary YOLOv4 Tiny model weights (`yolov4_tiny.weights`) and label names (`obj.names`) are available.)
 
 ## Usage
 
@@ -29,18 +27,34 @@ The system requires the following libraries and components:
 4. Run the Python script `pothole_detection.py`.
 5. Press 'q' to stop the video stream and terminate the detection process.
 
+### `test.mp4`
+
+This [video file](https://github.com/akshxyjagtap/Data-Science/blob/0b2fc3ba50c6f3c7f9e0bad76142409721866547/Pothole%20detection/test.mp4) contains footage of roads with potholes, used for testing the pothole detection system.
+
+
+
+### `result.avi` and `pothole_coordinate/`
+
+These are the output files:
+
+- [video file](https://github.com/akshxyjagtap/Data-Science/blob/0b2fc3ba50c6f3c7f9e0bad76142409721866547/Pothole%20detection/result.avi) contains the resulting video with detected potholes highlighted.
+- `pothole_coordinate/` is a folder that saves the location coordinates of detected potholes.
+
 ## Files and Directory Structure
 
 - `pothole_detection.py`: Main Python script for pothole detection.
 - `obj.names`: Text file containing label names for the YOLOv4 Tiny model.
 - `yolov4_tiny.weights`: YOLOv4 Tiny pre-trained weights file.
 - `yolov4_tiny.cfg`: YOLOv4 Tiny configuration file.
-- `result.avi`: Output video file with detected potholes.
+- `result.mp4`: Output video file with detected potholes.
 
 ## Parameters and Customization
 
 - Adjust confidence and NMS thresholds for detection accuracy (`Conf_threshold`, `NMS_threshold`).
 - Modify the output directory (`result_path`) for saving detected pothole images and coordinates.
+
+
+
 
 ## Notes
 
