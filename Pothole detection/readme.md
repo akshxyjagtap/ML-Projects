@@ -65,6 +65,4 @@ These are the output files:
 
 Contributions to optimize, improve accuracy, or add new functionalities are welcome. Feel free to open issues or pull requests.
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
